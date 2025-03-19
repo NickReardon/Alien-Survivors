@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7869658346393616728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6800688802559993304}
+  - component: {fileID: 7519469227269220670}
+  m_Layer: 0
+  m_Name: RotatingPowerUp
+  m_TagString: PowerUp
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6800688802559993304
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7869658346393616728}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7519469227269220670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7869658346393616728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0d9898531860834fbff45459220bb04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpEntityPrefab: {fileID: 2083560904636217908, guid: 47808e792eea77043be80907c313c678, type: 3}
+  powerUpName: Rotating Power Up
+  description: Entities float orbit around you, hitting any enemies they come in
+    contact with
+  icon: {fileID: 0}
+  soundEffect: {fileID: 0}
+  upgrades:
+  - upgrade:
+      upgradeType: 6
+      increaseType: 0
+      increaseValue: 2
+      boolValue: 0
+    description: Amount +2
+  - upgrade:
+      upgradeType: 4
+      increaseType: 1
+      increaseValue: 0.5
+      boolValue: 0
+    description: Speed +50%
+  - upgrade:
+      upgradeType: 6
+      increaseType: 0
+      increaseValue: 1
+      boolValue: 0
+    description: Amount +1
+  - upgrade:
+      upgradeType: 2
+      increaseType: 1
+      increaseValue: 0.5
+      boolValue: 0
+    description: Area +50%
+  - upgrade:
+      upgradeType: 0
+      increaseType: 1
+      increaseValue: 0.5
+      boolValue: 0
+    description: Damage +50%
+  damage:
+    baseValue: 10
+    modifier: 1
+    additionalModifiers: []
+  areaRadius:
+    baseValue: 5
+    modifier: 1
+    additionalModifiers: []
+  speed:
+    baseValue: 50
+    modifier: 1
+    additionalModifiers: []
+  amount:
+    baseValue: 5
+    modifier: 1
+    additionalModifiers: 
+  critChance:
+    baseValue: 0
+    modifier: 1
+    additionalModifiers: []
+  critMultiplier:
+    baseValue: 1
+    modifier: 1
+    additionalModifiers: []
+  knockback:
+    baseValue: 20
+    modifier: 1
+    additionalModifiers: []
+  luckChance:
+    baseValue: 0
+    modifier: 1
+    additionalModifiers: []
+  cooldown:
+    baseValue: 6
+    modifier: 1
+    additionalModifiers: []
+  cooldownTimer: 0
+  cooldownReady: 1
+  duration: 5
+  maxCollisions:
+    baseValue: 1
+    modifier: 1
+    additionalModifiers: 
+  intervalBetweenShots:
+    baseValue: 1
+    modifier: 1
+    additionalModifiers: []
+  seekTarget: 0
+  canPierce: 0
+  blockedByWalls: 1
+  bouncesOffCameraBounds: 0
+  collisionTags:
+  - Enemy
+  debugTextOutputs: []
+  debugOutput: 0
+  followPlayer: 1
+  enemyManager: {fileID: 0}
+  audioSource: {fileID: 0}
+  playerTransform: {fileID: 0}
+  level: 0
+  maxLevel: 0
+  powerPrefab: {fileID: 2083560904636217908, guid: 47808e792eea77043be80907c313c678, type: 3}

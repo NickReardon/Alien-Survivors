@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - PowerUp
+  - Enemy
+  - EventSystem
+  - Enemy Projectiles
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 2846492675
+    locked: 0
+  - name: Player
+    uniqueID: 3120278489
+    locked: 0
+  - name: Enemy
+    uniqueID: 3224305641
+    locked: 0
+  - name: Power Ups
+    uniqueID: 3135754321
+    locked: 0

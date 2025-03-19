@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: redfighter0001
+    m_Hash: 360310321
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: redfighter0001
+      m_Hash: 360310321
+      m_Sprite: {fileID: 21300000, guid: 7fd7eaaadcf916148b4bea77c680e32e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 7fd7eaaadcf916148b4bea77c680e32e, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: redfighter0002
+    m_Hash: 208713611
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: redfighter0002
+      m_Hash: 208713611
+      m_Sprite: {fileID: 21300000, guid: 72cf6bf495eff7f4c87ad0489f7a16c1, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 72cf6bf495eff7f4c87ad0489f7a16c1, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: redfighter0003
+    m_Hash: 997689117
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: redfighter0003
+      m_Hash: 997689117
+      m_Sprite: {fileID: 21300000, guid: 167ea6657fb4f474f8614fb626d9c668, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 167ea6657fb4f474f8614fb626d9c668, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: redfighter0004
+    m_Hash: 622006974
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: redfighter0004
+      m_Hash: 622006974
+      m_Sprite: {fileID: 21300000, guid: ac31eb728e8143d4d9ed69339c6cbfec, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: ac31eb728e8143d4d9ed69339c6cbfec, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: redfighter0005
+    m_Hash: 303309352
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: redfighter0005
+      m_Hash: 303309352
+      m_Sprite: {fileID: 21300000, guid: 37060fc6a9b493c4b80d3dafeb957eaf, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 37060fc6a9b493c4b80d3dafeb957eaf, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: redfighter0006
+    m_Hash: 186479506
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: redfighter0006
+      m_Hash: 186479506
+      m_Sprite: {fileID: 21300000, guid: c44242909b7c0d446b084ed8991d98d6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: c44242909b7c0d446b084ed8991d98d6, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: redfighter0007
+    m_Hash: 1008354052
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: redfighter0007
+      m_Hash: 1008354052
+      m_Sprite: {fileID: 21300000, guid: 008292d5a846d454d92c46de302c5457, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 008292d5a846d454d92c46de302c5457, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: redfighter0008
+    m_Hash: 749035157
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: redfighter0008
+      m_Hash: 749035157
+      m_Sprite: {fileID: 21300000, guid: fde398a7e08d5d041a594f5c555ac2d4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: fde398a7e08d5d041a594f5c555ac2d4, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: redfighter0009
+    m_Hash: 463629827
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: redfighter0009
+      m_Hash: 463629827
+      m_Sprite: {fileID: 21300000, guid: 946b5fc0dfb7c414da692c87730620a4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 946b5fc0dfb7c414da692c87730620a4, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 638646231248465830
+  m_Version: 1

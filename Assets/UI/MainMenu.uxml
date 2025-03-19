@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Label tabindex="-1" text="Press Esc to Exit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PressEscToExit" style="left: 3%; top: 90%; right: 50%; bottom: 3%; position: absolute; -unity-font: url(&quot;project://database/Assets/TextMesh%20Pro/Examples%20&amp;%20Extras/Fonts/Anton.ttf?fileID=12800000&amp;guid=997a43b767814dd0a7642ec9b78cba41&amp;type=3#Anton&quot;); font-size: 30%;" />
+    <ui:VisualElement style="flex-grow: 1; width: 60%; height: 41%; align-self: center; justify-content: space-between; position: absolute; top: 42%; align-items: center; min-height: 60px;">
+        <ui:VisualElement style="flex-grow: 1; width: 40%; align-self: center; align-items: stretch; left: auto; justify-content: space-around; top: auto;">
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Button" style="left: auto; min-height: 5px; height: 20%;" />
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Button" style="left: auto; min-height: 5px; height: 20%;" />
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Button" style="left: auto; min-height: 5px; height: 20%;" />
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Button" style="left: auto; min-height: 5px; height: 20%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
